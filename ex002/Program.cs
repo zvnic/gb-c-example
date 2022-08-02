@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, Vova!");
+﻿
+Console.WriteLine("Enter your Name: ");
+
+string userName = Console.ReadLine();
+
+Console.WriteLine("Hello, " + userName + "!");
