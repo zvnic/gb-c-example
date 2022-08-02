@@ -1,0 +1,15 @@
+/Users/zvnic/zdev/c#/geekbrains/exsamples/ex001/bin/Debug/net6.0/ex001
+/Users/zvnic/zdev/c#/geekbrains/exsamples/ex001/bin/Debug/net6.0/ex001.deps.json
+/Users/zvnic/zdev/c#/geekbrains/exsamples/ex001/bin/Debug/net6.0/ex001.runtimeconfig.json
+/Users/zvnic/zdev/c#/geekbrains/exsamples/ex001/bin/Debug/net6.0/ex001.dll
+/Users/zvnic/zdev/c#/geekbrains/exsamples/ex001/bin/Debug/net6.0/ex001.pdb
+/Users/zvnic/zdev/c#/geekbrains/exsamples/ex001/obj/Debug/net6.0/ex001.csproj.AssemblyReference.cache
+/Users/zvnic/zdev/c#/geekbrains/exsamples/ex001/obj/Debug/net6.0/ex001.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zvnic/zdev/c#/geekbrains/exsamples/ex001/obj/Debug/net6.0/ex001.AssemblyInfoInputs.cache
+/Users/zvnic/zdev/c#/geekbrains/exsamples/ex001/obj/Debug/net6.0/ex001.AssemblyInfo.cs
+/Users/zvnic/zdev/c#/geekbrains/exsamples/ex001/obj/Debug/net6.0/ex001.csproj.CoreCompileInputs.cache
+/Users/zvnic/zdev/c#/geekbrains/exsamples/ex001/obj/Debug/net6.0/ex001.dll
+/Users/zvnic/zdev/c#/geekbrains/exsamples/ex001/obj/Debug/net6.0/refint/ex001.dll
+/Users/zvnic/zdev/c#/geekbrains/exsamples/ex001/obj/Debug/net6.0/ex001.pdb
+/Users/zvnic/zdev/c#/geekbrains/exsamples/ex001/obj/Debug/net6.0/ex001.genruntimeconfig.cache
+/Users/zvnic/zdev/c#/geekbrains/exsamples/ex001/obj/Debug/net6.0/ref/ex001.dll
