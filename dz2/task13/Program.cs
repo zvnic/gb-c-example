@@ -1,5 +1,5 @@
 ﻿Console.Clear();
-Console.WriteLine("#task113");
+Console.WriteLine("#task13");
 
 int[] arrayNumber = {645, 78, 32679, 3478, 8123, 565, 78946, 84};
 
