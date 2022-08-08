@@ -1,7 +1,14 @@
-﻿Console.Clear();
+﻿/*
+Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+645 -> 5
+78 -> третьей цифры нет
+32679 -> 6
+*/
+
+Console.Clear();
 Console.WriteLine("#task13");
 
-int[] arrayNumber = {645, 78, 32679, 3478, 8123, 565, 78946, 84};
+int[] arrayNumber = {645, 78, 32679, 3478, 8123, 567, 78946, 84};
 
 int result = 0;
 
@@ -23,8 +30,7 @@ for(int i=0; i < arrayNumber.Length; i++) {
         result = arrayNumber[i]%1000/100;
     }
 
-    if(result == -1) 
-    {
+    if(result == -1) {
         Console.WriteLine($"{arrayNumber[i]} -> третьей цифры нет!");
     } else {
         Console.WriteLine($"{arrayNumber[i]} -> {result}");
