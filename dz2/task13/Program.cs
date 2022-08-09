@@ -8,27 +8,14 @@
 Console.Clear();
 Console.WriteLine("#task13");
 
-int[] arrayNumber = {645, 78, 32679, 3478, 8123, 567, 78946, 84};
-
+int[] arrayNumber = {645, 78, 32679, 3478, 8123, 8124, 567, 78946, 84, 123456, 7654321, 89653146};
 int result = 0;
+int digitIndex = 3;
 
-for(int i=0; i < arrayNumber.Length; i++) {
+for(int i=0; i < arrayNumber.Length; i++)
+{
 
-    if (arrayNumber[i] < 100) {
-        result = -1;
-    }
-
-    if(arrayNumber[i] >= 100 && arrayNumber[i] <= 999) {
-        result = arrayNumber[i]%100%10;
-    }
-
-    if(arrayNumber[i] > 999 && arrayNumber[i] <= 9999) {
-        result = arrayNumber[i]%1000%100/10;
-    }
-
-    if(arrayNumber[i] > 9999) {
-        result = arrayNumber[i]%1000/100;
-    }
+    result = geеNumberByIndex(arrayNumber[i], digitIndex);
 
     if(result == -1) {
         Console.WriteLine($"{arrayNumber[i]} -> третьей цифры нет!");
@@ -36,4 +23,14 @@ for(int i=0; i < arrayNumber.Length; i++) {
         Console.WriteLine($"{arrayNumber[i]} -> {result}");
     }
     
+}
+
+int geеNumberByIndex(int num, int index) 
+{
+    if(num.ToString().Length < 3) {
+        return -1;
+    } else {
+        // преобразуем char а цифру
+        return Convert.ToInt32(num.ToString()[index-1]-'0');
+    }
 }
