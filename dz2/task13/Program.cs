@@ -15,7 +15,7 @@ int digitIndex = 3;
 for(int i=0; i < arrayNumber.Length; i++)
 {
 
-    result = geеNumberByIndex(arrayNumber[i], digitIndex);
+    result = getNumberByIndex(arrayNumber[i], digitIndex);
 
     if(result == -1) {
         Console.WriteLine($"{arrayNumber[i]} -> третьей цифры нет!");
@@ -25,7 +25,7 @@ for(int i=0; i < arrayNumber.Length; i++)
     
 }
 
-int geеNumberByIndex(int num, int index) 
+int getNumberByIndex(int num, int index) 
 {
     if(num.ToString().Length < 3) {
         return -1;
