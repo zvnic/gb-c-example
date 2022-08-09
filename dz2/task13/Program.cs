@@ -30,7 +30,7 @@ int getNumberByIndex(int num, int index)
     if(num.ToString().Length < 3) {
         return -1;
     } else {
-        // преобразуем char а цифру
+        // преобразуем char в int
         return Convert.ToInt32(num.ToString()[index-1]-'0');
     }
 }
