@@ -7,9 +7,8 @@ A (7,-5, 0); B (1,-1,9) -> 11.53
 Console.Clear();
 Console.WriteLine("***** DZ_task_21 *****");
 
-// int[] dotA = new int[10];
 int[] dotA = new int[3];
-int[] dotB = {0,0,0};
+int[] dotB = new int[3];
 
 Console.WriteLine("Введите координаты точки A:");
 Console.Write("Ax:");
