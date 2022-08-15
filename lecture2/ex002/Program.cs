@@ -10,7 +10,7 @@ int index = 0;
 
 while(index < n) {
     if(array[index] == find) {
-        Condole.WriteLine(index);
+        Console.WriteLine(index);
     }
     index++;
 }
