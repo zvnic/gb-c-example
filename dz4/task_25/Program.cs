@@ -12,11 +12,11 @@ Console.Write("Введите число B:");
 int numB = Convert.ToInt32(Console.ReadLine());
 
 int GetNumPow(int a, int b) {
-    int res = a;
-    for(int i=1; i < b; i++) {
+    int res = 1;
+    for(int i=0; i < b; i++) {
         res = res *  a;
     }
     return res;
 }
 
-Console.WriteLine($"Число {numA} в степени {numB} равно {GetNumPow(numA, numB)}");
+Console.WriteLine($"Результат: {numA}^{numB} = {GetNumPow(numA, numB)}");
