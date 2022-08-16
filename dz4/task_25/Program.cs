@@ -4,7 +4,7 @@
 2, 4 -> 16
 */
 Console.Clear();
-Console.Write("#Task_25");
+Console.WriteLine("#Task_25");
 Console.Write("Введите число А:");
 int numA = Convert.ToInt32(Console.ReadLine());
 

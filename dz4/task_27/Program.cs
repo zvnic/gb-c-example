@@ -10,6 +10,7 @@ Console.WriteLine("#Task_27");
 Console.Write("Введите число:");
 int num = Convert.ToInt32(Console.ReadLine());
 
+// вычисляем сумму цифр в числе
 int GetSumDigit(int num) {
     int sum = 0;
     for(int i = num ; i >0; i /= 10) {
