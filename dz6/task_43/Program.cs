@@ -19,14 +19,6 @@ double b2 = Convert.ToDouble(Console.ReadLine());
 Console.Write("Введите значение k2: ");
 double k2 = Convert.ToDouble(Console.ReadLine());
 
-double CalculateX(double b1, double k1, double b2, double k2) {
-    return (b2 - b1) / (k1 - k2);
-}
-
-double CalculateY(double b1, double k1, double b2, double k2) {
-    return (k2*b1-k1*b2)/(k2-k1);
-}
-
 void CheckPoint(double b1, double k1, double b2, double k2) {
     double x = (b2 - b1) / (k1 - k2);
     double y = (k2 * b1 - k1 * b2) / (k2 - k1);
